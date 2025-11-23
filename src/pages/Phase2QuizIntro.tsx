@@ -8,7 +8,7 @@ export const Phase2QuizIntro = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-100 via-rose-100 to-pink-200 flex flex-col items-center justify-center p-4">
       <h1 className="text-4xl md:text-6xl font-bold text-pink-600 mb-8 text-center">
-        Let's start a lovely quiz? 💖
+        Start Panlama Ammu? 💖
       </h1>
       <Button
         variant="contained"
