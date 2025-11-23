@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { welcomeMessages } from '../data/messages';
 
 export const Phase1Welcome = () => {
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [fadeState, setFadeState] = useState<'in' | 'visible' | 'out'>('in');
   const navigate = useNavigate();
@@ -20,12 +21,12 @@ export const Phase1Welcome = () => {
 
     const visibleTimer = setTimeout(() => {
       setFadeState('out');
-    }, 2500);
+    }, 3500);
 
     const nextTimer = setTimeout(() => {
       setCurrentIndex(prev => prev + 1);
       setFadeState('in');
-    }, 3500);
+    }, 4500);
 
     return () => {
       clearTimeout(fadeInTimer);
