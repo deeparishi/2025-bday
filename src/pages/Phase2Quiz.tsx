@@ -29,7 +29,7 @@ export const Phase2Quiz = () => {
 
   const moveToNextPhase = () => {
     resetQuiz();
-    navigate('/photos');
+    navigate('/birthday');
   };
 
 
@@ -136,7 +136,7 @@ export const Phase2Quiz = () => {
                 }
               }}
             >
-              Replay Quiz
+              Tirumba Vilaydariya Ammu?
             </Button>
             <Button
               variant="contained"
