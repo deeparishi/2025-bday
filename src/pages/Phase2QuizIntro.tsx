@@ -27,7 +27,7 @@ export const Phase2QuizIntro = () => {
           fontWeight: 'bold'
         }}
       >
-        Start Quiz
+        Yes Deepu
       </Button>
     </div>
   );
