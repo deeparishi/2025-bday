@@ -9,7 +9,9 @@ export const questions: Question[] = [
   {
     question: "Deepu plan pani failure aana first movie name enna ammu?",
     type: "single",
-    options: ["Love Today", "Kaathuvakula Rendu Kaadhal", "Sita Raman", "Vikram"],
+    options: ["Love Today", 
+                "Kaathuvakula Rendu Kaadhal", 
+                "Sita Raman", "Vikram"],
     answer: "Sita Raman"
   },
   {
@@ -21,25 +23,40 @@ export const questions: Question[] = [
   {
     question: "2024 Anniversary ku enga ponom namba? ",
     type: "single",
-    options: ["Vadapalani Kovil + Forum Mall", "Mylaport Kovil + Birla Planetarium", "Vadapalani Kovil + T Nagar National Park", "Marina Beach + EA Mall"],
+    options: ["Vadapalani Kovil + Forum Mall", 
+              "Mylaport Kovil + Birla Planetarium", 
+              "Vadapalani Kovil + T Nagar National Park", 
+              "Marina Beach + EA Mall"
+            ],
     answer: "Mylaport Kovil + Birla Planetarium"
   },
   {
     question: "2024 Anniversary ku ena outfit potrunthom?",
     type: "single",
-    options: ["Pink dress + Blue shirt", "Red chudi + Purple dress", "Sandal Shirt + Green chudi", "Blue Tshirt + Yellow dress"],
+    options: ["Pink dress + Blue shirt", 
+              "Red chudi + Purple dress", 
+              "Sandal Shirt + Green chudi", 
+              "Blue Tshirt + Yellow chudi"
+            ],
     answer: "Red chudi + Purple dress"
   },
   {
     question: "Rendu Perukum pedicha dishes",
     type: "multi",
-    options: ["Waffle", "Butterscotch Ice", "Rose milk", "Hakka Noodles", "Coffe", "Biriyani", "Home foods"],
+    options: ["Waffle", 
+              "Butterscotch Ice", 
+              "Rose milk", "Hakka Noodles", 
+              "Coffe", "Biriyani", 
+              "Home foods"],
     answer: ["Waffle", "Butterscotch Ice", "Home foods", "Biriyani"]
   },
   {
     question: "Which Dress la deepu ku Ammu va pedium",
     type: "single",
-    options: ["Red Dress/White shall", "Purple Dress/Sandal Shall", "Pink Dress/Jeans", "Full White"],
+    options: ["Red Dress/White shall", 
+              "Purple Dress/Sandal Shall", 
+              "Pink Dress/Jeans", 
+              "Full White"],
     answer: "Purple Dress/Sandal Shall"
   },
   {
@@ -49,7 +66,7 @@ export const questions: Question[] = [
     answer: "28/2/2023"
   },
    {
-    question: "First time endha bike la enoda vantha",
+    question: "First time endha vehicle la enoda vantha",
     type: "single",
     options: ["Scooty", "Bike"],
     answer: "Bike"
