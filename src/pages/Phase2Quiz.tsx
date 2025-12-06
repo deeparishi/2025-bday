@@ -29,7 +29,7 @@ export const Phase2Quiz = () => {
 
   const moveToNextPhase = () => {
     resetQuiz();
-    navigate('/birthday');
+    navigate('/timeline');
   };
 
 
