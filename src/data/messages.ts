@@ -1,9 +1,9 @@
 export const welcomeMessages = [
   "Ammu!",
-  "Almost 1282 days since we met...",
-  "That's 30,768 hours of us being together!",
+  "4 Years",
   "43 Months",
-  "Around 4 Years",
+  "1282 days",
+  "That's 30,768 hours of us being together!",
   "Thanks for being my better half!",
   "I Love you Ammu! ❤️",
   "Birthday Wish pandrathuku munadi....",
